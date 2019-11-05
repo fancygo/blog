@@ -1,0 +1,27 @@
+baseURL = "http://fancygo.cn/"
+languageCode = "zh-CN"
+title = "FancyGo"
+theme = "maupassant"
+copyright = "Copyright (c) 2019. All rights reserved. 苏ICP备15022894号-2"
+summaryLength = 1
+
+[permalinks]
+    posts = "/:slug"
+
+[author]
+    name = "FancyGo"
+
+[params]
+    author = "FancyGo"
+    subtitle = "专注于Go语言(golang)、服务器、游戏"
+    keywords = "Golang, Go语言, 游戏, 服务器开发"
+    description = "专注于IT互联网, 包括但不限于Go语言(golang), 游戏, 服务器等"
+    githubuser = "fancygo"
+    busuanzi = true
+
+[menu]
+    [[menu.main]]
+        identifier = "about"
+        name = "关于"
+        url = "/about/"
+        weight = 2
